@@ -13,11 +13,11 @@ document.querySelector('#send-mail-btn').addEventListener('click', (event) => {
         message:  messageArea.value
     }
 
-    // Set the IDs
+// Set the IDs
     // 🚫 INSECURE 🚫 //
-    const SERVICE_ID = 'service_ybm82im'
-    const TEMPLATE_ID = 'template_bl9e5q7'
-    const USER_ID = 'user_fKOFTHNVkZuzqNqHfz7Yw'
+    const SERVICE_ID = ''//your service-id
+    const TEMPLATE_ID = ''//your template-id
+    const USER_ID = ''//your user-id
     
     // Check the validity of inputs
     if (isInputsValid(params)) {
